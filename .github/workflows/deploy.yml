@@ -34,4 +34,4 @@ jobs:
         destination_branch: "main"
         # SSH key used to authenticate with git clone urls provided (optional if public or https clone url with authentication)
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-        ssh_destination_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        destination_ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
